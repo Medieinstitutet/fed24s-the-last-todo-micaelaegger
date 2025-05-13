@@ -69,11 +69,11 @@ export const TodoApp = () => {
   };
 
   return (
-    <div className=" text-white grid grid-rows-[auto,1fr,auto] grid-cols-1">
-      <header className="flex items-center gap-4 py-8 px-12">
+    <div className=" text-white grid grid-rows-[auto,1fr,auto] grid-cols-1 min-h-screen">
+      <header className="flex items-center px-5 w-full sm:w-11/12 md:w-10/12 lg:w-9/12 mx-auto">
         <Header />
       </header>
-      <main className="py-8">
+      <main className="py-8 px-4 sm:px-6">
         <div className="flex flex-col items-start w-full sm:w-11/12 md:w-10/12 lg:w-9/12 mx-auto">
           <h2 className="text-xl font-semibold mb-4">Tasks</h2>
           <section className="bg-gray-medium px-6 py-4 rounded-lg flex flex-col gap-6 w-full">
@@ -91,8 +91,8 @@ export const TodoApp = () => {
           </section>
         </div>
       </main>
-      <footer className="text-center py-4">
-        <p>© 2023 Todo App</p>
+      <footer className="flex items-center justify-center">
+        <p>© 2025 Todo App by Micaela Egger </p>
       </footer>
       <Modal
         isOpen={isModalOpen}
