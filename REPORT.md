@@ -51,7 +51,7 @@ för att köra projektet.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-last-todo-micaelaegger\src\models\Todo.ts - no-unused-vars - 'task' is defined but never used.,no-unused-vars - 'isDone' is assigned a value but never used.,no-unused-vars - 'priority' is assigned a value but never used.,no-unused-vars - 'isUpdating' is assigned a value but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller samtliga krav för VG bedömning. Studenten har implementerat alla funktioner som specificeras för både G och VG nivån. Projektet utnyttjar React-komponenter på ett modulärt sätt och använder TailwindCSS för styling. Användaren kan skapa, ta bort och markera todo-objekt som klara/inte-klara, samt sortera dem enligt tid och prioritet. Hantering av tillståndet är väl implementerad och funktioner som 'lifting state up' används korrekt.
+📌 **Motivering:** Koden uppfyller alla krav för högsta betyg och har implementerat extra funktioner för att förbättra användarupplevelsen.
 
 💡 **Förbättringsförslag:**  
-Även om koden uppfyller alla krav för VG, kan nästa steg vara att implementera ytterligare tester för att säkerställa korrekt funktionalitet under olika scenarier, såsom felhantering och edge cases. En annan förbättring kan vara att lägga till feedback till användaren för att göra applikationen mer användarvänlig, t.ex. genom animationer eller andra UI-indikationer vid interaktion.
+Förbättra kodläsbarheten och underhållet genom att bryta ned vissa större komponenter i mindre delar, till exempel dela upp Modal-komponenten i mindre funktionaliteter för hantering av task- och priority-fält. Lägg till prop-typsäkerhet för några av komponenterna där det saknas. Se till att använda Typescript mer konsekvent över hela koden, särskilt där det gäller komponenttyper och komponenttillstånd.
